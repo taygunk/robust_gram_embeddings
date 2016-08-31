@@ -23,8 +23,8 @@ Given a text corpus, the Robust Gram tool learns a vector for every word in the 
  - lambda1, lambda2 values for regularization (check the paper for details)
 
 Run the demo script:
-We provide the minimal demo-rw-sim.sh script. It downloads a small (100MB) Wikipedia text corpus from the web, and trains a word vector model. After the training is finished, it displays the Spearman word similarity coefficient for RW dataset. 
+We provide the minimal demo-rw-sim.sh script. It downloads a small (100MB) Wikipedia text corpus from the web, and trains a word vector model. After the training is finished, it displays the Spearman Correlation Coefficient for Rare Words dataset. 
 
-on the default setting it should output:
->> Spearman C. (Avg) on RW: 0.661533 QuestionsSeen: (2473/3000)
+on the default setting Robust Gram should output something like this:
+Spearman C. (Avg) on RW: 0.378097
 
